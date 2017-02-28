@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`background-gradient`
+background gradient
+
+@demo demo/index.html 
+-->
+
+<dom-module id="background-gradient">
+  <template>
+    <style>
+      :host {
+        top:  0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(rgba(140, 170, 70, 0), rgba(140, 170, 70, 1));
+        position: fixed;
+      }
+    </style>
+    <content></content>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'background-gradient',
+
+      properties: {
+      }
+
+    });
+  </script>
+</dom-module>
